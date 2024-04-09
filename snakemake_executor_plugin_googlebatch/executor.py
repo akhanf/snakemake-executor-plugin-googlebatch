@@ -167,7 +167,7 @@ class GoogleBatchExecutor(RemoteExecutor):
         self.logger.info("\n🌟️ Setup Command:")
         print(setup_command)
 
-        pre_commands = []
+        pre_commands = ['cd /root'] 
 
         # Run command
         run_command = writer.run(pre_commands)

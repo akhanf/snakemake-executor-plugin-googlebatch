@@ -16,6 +16,12 @@ snippets = {
         "setup": "intel-mpi/setup.sh",
         "run": "intel-mpi/run.sh",
         "includes_command": True,
+    },
+    "apptainer": {
+        "family": "hpc",
+        "setup": "apptainer/setup.sh",
+        "run": "apptainer/run.sh",
+        "includes_command": True,
     }
 }
 
